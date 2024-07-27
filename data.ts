@@ -117,3 +117,31 @@ export const EventList = [
     bg_color: "bg-lime-100",
   },
 ];
+
+export const Days = [
+  {
+    number: 1,
+    day: "Monday",
+    pickUp: ["recycling", "garbage"],
+  },
+  {
+    number: 2,
+    day: "Tuesday",
+    pickUp: ["yard waste"],
+  },
+  {
+    number: 3,
+    day: "Wednesday",
+    pickUp: ["recycling"],
+  },
+  {
+    number: 4,
+    day: "Thursday",
+    pickUp: ["garbage"],
+  },
+  {
+    number: 5,
+    day: "Friday",
+    pickUp: ["yard waste", "recycling"],
+  },
+];

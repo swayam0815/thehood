@@ -3,6 +3,7 @@ import NavBar from "./NavBar";
 import { ExpandableCardDemo } from "./ExpandableCard";
 import { Carousel, Card } from "./Reminders";
 import Image from "next/image";
+import Reminder from "./Reminder";
 
 const DashBoard = () => {
   const cards = reminders.map((card, index) => (
@@ -20,9 +21,10 @@ const DashBoard = () => {
       <div className="h-full w-5/6 flex" id="navbar">
         <div className="h-full w-4/6  border-r-4 border-r-black border-l-0 border-4 border-black ">
           <div className="w-full h-1/2  overflow-hidden border-b-4 border-b-black">
-          <h1 className="text-5xl w-full pl-6 my-4">Reminders</h1>
-            <div className="w-full h-full ">
-              <Carousel items={cards} />
+          <h1 className="text-5xl w-full h-1/5  flex items-center justify-center">Reminders</h1>
+            <div className="w-full h-5/6  ">
+              <Reminder/>
+              {/* <Carousel items={cards} /> */}
             </div>
           </div>
           <div className="w-full h-1/2 flex">
