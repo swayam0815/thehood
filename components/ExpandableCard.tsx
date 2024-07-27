@@ -82,17 +82,17 @@ export function ExpandableCardDemo() {
               </motion.div>
 
               <div>
-                <div className="flex justify-between items-start p-4">
+                <div className="flex justify-between items-start p-4 text-white">
                   <div className="">
                     <motion.h3
                       layoutId={`title-${active.title}-${id}`}
-                      className="font-bold text-black text-xl"
+                      className="font-bold text-white text-xl"
                     >
                       {active.title}
                     </motion.h3>
                     <motion.p
                       layoutId={`description-${active.description}-${id}`}
-                      className="text-black"
+                      className="text-white"
                     >
                       {active.description}
                     </motion.p>
@@ -102,7 +102,7 @@ export function ExpandableCardDemo() {
                     layoutId={`button-${active.title}-${id}`}
                     href={active.ctaLink}
                     target="_blank"
-                    className={`px-4 py-3 w-max h-10 flex items-center whitespace-nowrap flex-nowrap justify-center text-sm rounded-full font-bold bg-white border-2 border-black hover:bg-black hover:text-white transition-all text-black`}
+                    className={`px-4 py-3 w-max h-10 flex items-center whitespace-nowrap flex-nowrap justify-center text-sm rounded-full font-bold bg-white border-2 border-[#a8a29e] hover:bg-black hover:text-white transition-all text-black`}
                   >
                     {active.ctaText}
                   </motion.a>
@@ -113,7 +113,7 @@ export function ExpandableCardDemo() {
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     exit={{ opacity: 0 }}
-                    className="text-black text-xs md:text-sm lg:text-base h-40 md:h-fit pb-10 flex flex-col items-start gap-4 overflow-auto  "
+                    className="text-white text-xs md:text-sm lg:text-base h-40 md:h-fit pb-10 flex flex-col items-start gap-4 overflow-auto  "
                   >
                     {typeof active.content === "function"
                       ? active.content()
@@ -131,7 +131,7 @@ export function ExpandableCardDemo() {
             layoutId={`card-${card.title}-${id}`}
             key={`card-${card.title}-${id}`}
             onClick={() => setActive(card)}
-            className={`${card.bgColor} pl-0   border-4 rounded-xl border-black flex flex-col md:flex-row justify-between items-center rounded-xl cursor-pointer`}
+            className={`${card.bgColor} pl-0   border-4 rounded-xl border-[#a8a29e] flex flex-col md:flex-row justify-between items-center rounded-xl cursor-pointer`}
           >
             <motion.div
               layoutId={`image-${card.title}-${id}`}
@@ -142,7 +142,7 @@ export function ExpandableCardDemo() {
                 height={100}
                 src={card.src}
                 alt={card.title}
-                className="w-full h-full object-cover object-top rounded-xl"
+                className="w-[100px] h-[100px] object-cover object-top rounded-xl"
               />
             </motion.div>
             <div className="flex flex-col gap-1 pl-2 items-start justify-start  w-[80%]">
@@ -194,10 +194,10 @@ const cards = [
     description:
       "Join us for a fun-filled community BBQ with food, games, and music!",
     title: "Community BBQ",
-    src: "https://assets.aceternity.com/demos/babbu-maan.jpeg",
+    src: "/Events/community-barbeque.jpg",
     ctaText: "Learn More",
     ctaLink: "https://example.com/community-bbq",
-    bgColor: "bg-red-100", // Light red background
+    bgColor: "bg-[#f87171] text-white", // Light red background
     content: () => {
       return (
         <p>
@@ -214,10 +214,10 @@ const cards = [
     description:
       "Bring your blankets and chairs for a movie under the stars. We'll be showing 'The Greatest Showman'.",
     title: "Outdoor Movie Night",
-    src: "https://assets.aceternity.com/demos/babbu-maan.jpeg",
+    src: "/Events/outdoor-movie-night.jpg",
     ctaText: "RSVP",
     ctaLink: "https://example.com/outdoor-movie-night",
-    bgColor: "bg-blue-100", // Light blue background
+    bgColor: "bg-[#fffbeb]", // Light amber background
     content: () => {
       return (
         <p>
@@ -233,10 +233,10 @@ const cards = [
     description:
       "Come and enjoy fresh produce, handmade crafts, and live music at our weekly farmers market.",
     title: "Farmers Market",
-    src: "https://assets.aceternity.com/demos/babbu-maan.jpeg",
+    src: "/Events/farmers-market.jpg",
     ctaText: "Explore",
     ctaLink: "https://example.com/farmers-market",
-    bgColor: "bg-green-100", // Light green background
+    bgColor: "bg-[#f87171] text-white", // Light red background
     content: () => {
       return (
         <p>
@@ -253,10 +253,10 @@ const cards = [
     description:
       "Participate in our charity fun run to raise money for local schools. All ages welcome!",
     title: "Charity Fun Run",
-    src: "https://assets.aceternity.com/demos/babbu-maan.jpeg",
+    src: "/Events/local-schools-fund.jpg",
     ctaText: "Join Us",
     ctaLink: "https://example.com/charity-fun-run",
-    bgColor: "bg-yellow-100", // Light yellow background
+    bgColor: "bg-[#fffbeb]", // Light amber background
     content: () => {
       return (
         <p>
@@ -273,10 +273,10 @@ const cards = [
     description:
       "Enjoy a day of art exhibits, workshops, and performances by local artists.",
     title: "Art in the Park",
-    src: "https://assets.aceternity.com/demos/babbu-maan.jpeg",
+    src: "/Events/art-in-the-park.webp",
     ctaText: "Discover Art",
     ctaLink: "https://example.com/art-in-the-park",
-    bgColor: "bg-purple-100", // Light purple background
+    bgColor: "bg-[#f87171] text-white", // Light red background
     content: () => {
       return (
         <p>
@@ -294,10 +294,10 @@ const cards = [
     description:
       "Join us for a community cleanup day to keep our neighborhood beautiful. Supplies provided.",
     title: "Neighborhood Cleanup",
-    src: "https://assets.aceternity.com/demos/babbu-maan.jpeg",
+    src: "/Events/neighborhood-cleanup.jpeg",
     ctaText: "Volunteer",
     ctaLink: "https://example.com/neighborhood-cleanup",
-    bgColor: "bg-gray-100", // Light gray background
+    bgColor: "bg-[#fffbeb]", // Light amber background
     content: () => {
       return (
         <p>
@@ -314,10 +314,10 @@ const cards = [
     description:
       "Discuss this month's book, 'The Night Circus', with fellow book lovers. Snacks provided.",
     title: "Book Club Meeting",
-    src: "https://assets.aceternity.com/demos/babbu-maan.jpeg",
+    src: "/Events/book-club-meeting.jpg",
     ctaText: "Join the Discussion",
     ctaLink: "https://example.com/book-club-meeting",
-    bgColor: "bg-teal-100", // Light teal background
+    bgColor: "bg-[#f87171] text-white", // Light red background
     content: () => {
       return (
         <p>
@@ -335,10 +335,10 @@ const cards = [
     description:
       "Enjoy live music every Saturday evening in the park. This week's band: The Rockers.",
     title: "Summer Concert Series",
-    src: "https://assets.aceternity.com/demos/babbu-maan.jpeg",
+    src: "/Events/summer-concert-series.jpg",
     ctaText: "Attend",
     ctaLink: "https://example.com/summer-concert-series",
-    bgColor: "bg-pink-100", // Light pink background
+    bgColor: "bg-[#fffbeb]", // Light amber background
     content: () => {
       return (
         <p>
@@ -355,10 +355,10 @@ const cards = [
     description:
       "Find your new best friend at our pet adoption fair. Adoption fees waived for the day!",
     title: "Pet Adoption Fair",
-    src: "https://assets.aceternity.com/demos/babbu-maan.jpeg",
+    src: "/Events/pet-adoption-fair.jpg",
     ctaText: "Adopt",
     ctaLink: "https://example.com/pet-adoption-fair",
-    bgColor: "bg-orange-100", // Light orange background
+    bgColor: "bg-[#f87171] text-white", // Light red background
     content: () => {
       return (
         <p>
@@ -375,10 +375,10 @@ const cards = [
     description:
       "Learn the basics of gardening from local experts. Free starter kits for all attendees.",
     title: "Gardening Workshop",
-    src: "https://assets.aceternity.com/demos/babbu-maan.jpeg",
+    src: "/Events/gardening-workshop.jpg",
     ctaText: "Sign Up",
     ctaLink: "https://example.com/gardening-workshop",
-    bgColor: "bg-indigo-100", // Light indigo background
+    bgColor: "bg-[#fffbeb]", // Light amber background
     content: () => {
       return (
         <p>

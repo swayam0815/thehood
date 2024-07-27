@@ -120,19 +120,19 @@ export const EventList = [
 
 export const Days = [
   {
-    number: 1,
+    number: 29,
     day: "Monday",
     pickUp: ["recycling", "garbage"],
   },
   {
-    number: 2,
+    number: 5,
     day: "Tuesday",
-    pickUp: ["yard waste"],
+    pickUp: ["yard waste", "garbage"],
   },
   {
-    number: 3,
+    number: 12,
     day: "Wednesday",
-    pickUp: ["recycling"],
+    pickUp: ["All"],
   },
   {
     number: 4,
@@ -143,5 +143,44 @@ export const Days = [
     number: 5,
     day: "Friday",
     pickUp: ["yard waste", "recycling"],
+  },
+];
+
+export const holidays = [
+  {
+    number: 14,
+    day: "Monday",
+    holiday: "Civic Holiday",
+    description: "A day to celebrate local communities.",
+  },
+  {
+    number: 28,
+    day: "Monday",
+    holiday: "Labour Day",
+    description: "A day to honor workers and their contributions.",
+  },
+  {
+    number: 31,
+    day: "Monday",
+    holiday: "Thanksgiving",
+    description: "A day for giving thanks and family gatherings.",
+  },
+];
+
+export const noti = [
+  {
+    title: "Meeting Reminder",
+    body: "Don't forget about your meeting with the team at 10 AM.",
+    timestamp: "9:00 AM",
+  },
+  {
+    title: "Doctor's Appointment",
+    body: "You have a doctor's appointment scheduled for tomorrow at 3 PM.",
+    timestamp: "3:00 PM",
+  },
+  {
+    title: "From Randy:",
+    body: "Hey, just checking in to see how you're doing. Let's catch up soon!",
+    timestamp: "7:00 AM",
   },
 ];
