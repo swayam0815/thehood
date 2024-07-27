@@ -184,3 +184,98 @@ export const noti = [
     timestamp: "7:00 AM",
   },
 ];
+
+
+export const BuyandSell = [
+  {
+    description:
+      "Reliable and efficient lawn mower in excellent condition, perfect for keeping your yard neat and tidy.",
+    title: "For Sale: Lawn Mower",
+    src: "/BuyandSell/lawn-mower.webp",
+    ctaText: "Learn More",
+    ctaLink: "https://example.com/community-bbq",
+    bgColor: "bg-[#f87171]", // Light red background
+    content: "Transform your yard work into a breeze with this high-performance lawn mower. Perfect for both small and large lawns, this mower features a powerful engine, ensuring smooth and efficient cutting every time. Equipped with adjustable cutting heights, it allows you to customize the grass length to your preference."
+  },
+  {
+    description:
+      "A set of quality plates available for free, ideal for enhancing your dining collection or everyday use.",
+    title: "For Sale: Free plates",
+    src: "/BuyandSell/free-plates.jpg",
+    ctaText: "Learn More",
+    ctaLink: "https://example.com/community-bbq",
+    bgColor: "bg-[#fffbeb]", // Light amber background
+    content: "Upgrade your dining experience with our Free Plates Giveaway! Whether you're setting up a new home, hosting a gathering, or simply looking to refresh your kitchenware, these plates are perfect for you."
+  },
+  {
+    description:
+      "Beautiful, solid wood dining table with six matching chairs, perfect for family meals and gatherings.",
+    title: "For Sale: Dining Table Set",
+    src: "/BuyandSell/dining-table-set.webp",
+    ctaText: "Learn More",
+    ctaLink: "https://example.com/community-bbq",
+    bgColor: "bg-[#f87171]", // Light red background
+    content: "Elevate your dining space with this exquisite dining table set, perfect for family meals and entertaining guests. Crafted with attention to detail, this set combines style, comfort, and durability, making it a beautiful and practical addition to your home."
+  },
+  {
+    description:
+      "High-performance laptop featuring a fast processor, ample storage, and excellent battery life, suitable for work or play.",
+    title: "For Sale:  Used Laptop",
+    src: "/BuyandSell/laptop.jpg",
+    ctaText: "Learn More",
+    ctaLink: "https://example.com/community-bbq",
+    bgColor: "bg-[#fffbeb]", // Light amber background
+    content: "Upgrade your tech setup with this high-performance, slightly used laptop. Perfect for work, study, and entertainment, this laptop offers impressive speed and reliability, ensuring you stay productive and connected."
+  },
+  {
+    description:
+      "Comfortable, contemporary sofa in great condition, offering stylish seating for your living room.",
+    title: "For Sale: Sofa",
+    src: "/BuyandSell/sofa.jpg",
+    ctaText: "Learn More",
+    ctaLink: "https://example.com/community-bbq",
+    bgColor: "bg-[#f87171]", // Light red background
+    content: "Transform your living space with this stylish and comfortable sofa, perfect for relaxing and entertaining. Designed with both aesthetics and comfort in mind, this sofa will be a fantastic addition to any home."
+  },
+  {
+    description:
+      "Energy-efficient washing machine with multiple wash settings and a large capacity, ensuring clean clothes every time.",
+    title: "For Sale: Washing Machine",
+    src: "/BuyandSell/washing-machine.jpg",
+    ctaText: "Learn More",
+    ctaLink: "https://example.com/community-bbq",
+    bgColor: "bg-[#fffbeb]", // Light amber background
+    content: "Get your laundry done efficiently with this reliable second-hand washing machine. Ideal for any household, this washing machine offers powerful performance and essential features to handle your washing needs."
+  },
+  {
+    description:
+      "Sturdy, wooden bookshelf with five adjustable shelves, perfect for organizing books and displaying decor.",
+    title: "For Sale: Bookshelf",
+    src: "/BuyandSell/bookshelf.jpg",
+    ctaText: "Learn More",
+    ctaLink: "https://example.com/community-bbq",
+    bgColor: "bg-[#f87171]", // Light red background
+    content: "Enhance your home or office with this sturdy and stylish second-hand bookshelf. Perfect for organizing books, displaying decorative items, or storing essentials, this bookshelf is a versatile addition to any space."
+  },
+  {
+    description:
+      "High-quality electric guitar with a sleek design and excellent sound, great for both beginners and experienced players.",
+    title: "For Sale: Electric Guitar",
+    src: "/BuyandSell/electric-guitar.jpg",
+    ctaText: "Learn More",
+    ctaLink: "https://example.com/community-bbq",
+    bgColor: "bg-[#fffbeb]", // Light amber background
+    content: "Unleash your inner rock star with this second-hand electric guitar, perfect for beginners and experienced musicians alike. This guitar offers excellent sound quality and playability, making it a great addition to any collection."
+  },
+  {
+    description:
+      "Gently used baby stroller with adjustable seating, a smooth ride, and plenty of storage, ensuring comfort and convenience for you and your child.",
+    title: "For Sale: Baby Stroller",
+    src: "/BuyandSell/baby-stroller.jpg",
+    ctaText: "Learn More",
+    ctaLink: "https://example.com/community-bbq",
+    bgColor: "bg-[#f87171]", // Light red background
+    content: "Ensure your little one travels in comfort and style with this high-quality second-hand baby stroller. Designed with both parents and babies in mind, this stroller offers convenience, safety, and ease of use."
+  },
+];
+
