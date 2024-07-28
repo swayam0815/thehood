@@ -157,7 +157,7 @@ export const holidays = [
     number: 28,
     day: "Monday",
     holiday: "Labour Day",
-    description: "A day to honor workers and their contributions.",
+    description: "A day to honor workers.",
   },
   {
     number: 31,
@@ -170,12 +170,12 @@ export const holidays = [
 export const noti = [
   {
     title: "Meeting Reminder",
-    body: "Don't forget about your meeting with the team at 10 AM.",
+    body: "Meeting with the team at 10 AM.",
     timestamp: "9:00 AM",
   },
   {
     title: "Doctor's Appointment",
-    body: "You have a doctor's appointment scheduled for tomorrow at 3 PM.",
+    body: "You have a doctor's appointment scheduled.",
     timestamp: "3:00 PM",
   },
   {
