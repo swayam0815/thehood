@@ -82,7 +82,7 @@ export function ExpandableCardDemo() {
               </motion.div>
 
               <div>
-                <div className="flex justify-between items-start p-4 text-white">
+                <div className="flex justify-between items-start p-4 text-black">
                   <div className="">
                     <motion.h3
                       layoutId={`title-${active.title}-${id}`}
@@ -92,7 +92,7 @@ export function ExpandableCardDemo() {
                     </motion.h3>
                     <motion.p
                       layoutId={`description-${active.description}-${id}`}
-                      className="text-white"
+                      className="text-black"
                     >
                       {active.description}
                     </motion.p>
@@ -113,7 +113,7 @@ export function ExpandableCardDemo() {
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     exit={{ opacity: 0 }}
-                    className="text-white text-xs md:text-sm lg:text-base h-40 md:h-fit pb-10 flex flex-col items-start gap-4 overflow-auto  "
+                    className="text-black text-xs md:text-sm lg:text-base h-40 md:h-fit pb-10 flex flex-col items-start gap-4 overflow-auto  "
                   >
                     {typeof active.content === "function"
                       ? active.content()
@@ -194,7 +194,7 @@ const cards = [
     description:
       "Join us for a fun-filled community BBQ with food, games, and music!",
     title: "Community BBQ",
-    src: "/Events/community-barbeque.jpg",
+    src: "/events/community-barbeque.jpg",
     ctaText: "Learn More",
     ctaLink: "https://example.com/community-bbq",
     bgColor: "bg-[#f87171] text-white", // Light red background
@@ -214,7 +214,7 @@ const cards = [
     description:
       "Bring your blankets and chairs for a movie under the stars. We'll be showing 'The Greatest Showman'.",
     title: "Outdoor Movie Night",
-    src: "/Events/outdoor-movie-night.jpg",
+    src: "/events/outdoor-movie-night.jpg",
     ctaText: "RSVP",
     ctaLink: "https://example.com/outdoor-movie-night",
     bgColor: "bg-[#fffbeb]", // Light amber background
@@ -233,7 +233,7 @@ const cards = [
     description:
       "Come and enjoy fresh produce, handmade crafts, and live music at our weekly farmers market.",
     title: "Farmers Market",
-    src: "/Events/farmers-market.jpg",
+    src: "/events/farmers-market.jpg",
     ctaText: "Explore",
     ctaLink: "https://example.com/farmers-market",
     bgColor: "bg-[#f87171] text-white", // Light red background
@@ -253,7 +253,7 @@ const cards = [
     description:
       "Participate in our charity fun run to raise money for local schools. All ages welcome!",
     title: "Charity Fun Run",
-    src: "/Events/local-schools-fund.jpg",
+    src: "/events/local-schools-fund.jpg",
     ctaText: "Join Us",
     ctaLink: "https://example.com/charity-fun-run",
     bgColor: "bg-[#fffbeb]", // Light amber background
@@ -273,7 +273,7 @@ const cards = [
     description:
       "Enjoy a day of art exhibits, workshops, and performances by local artists.",
     title: "Art in the Park",
-    src: "/Events/art-in-the-park.webp",
+    src: "/events/art-in-the-park.webp",
     ctaText: "Discover Art",
     ctaLink: "https://example.com/art-in-the-park",
     bgColor: "bg-[#f87171] text-white", // Light red background
@@ -294,7 +294,7 @@ const cards = [
     description:
       "Join us for a community cleanup day to keep our neighborhood beautiful. Supplies provided.",
     title: "Neighborhood Cleanup",
-    src: "/Events/neighborhood-cleanup.jpeg",
+    src: "/events/neighborhood-cleanup.jpeg",
     ctaText: "Volunteer",
     ctaLink: "https://example.com/neighborhood-cleanup",
     bgColor: "bg-[#fffbeb]", // Light amber background
@@ -314,7 +314,7 @@ const cards = [
     description:
       "Discuss this month's book, 'The Night Circus', with fellow book lovers. Snacks provided.",
     title: "Book Club Meeting",
-    src: "/Events/book-club-meeting.jpg",
+    src: "/events/book-club-meeting.jpg",
     ctaText: "Join the Discussion",
     ctaLink: "https://example.com/book-club-meeting",
     bgColor: "bg-[#f87171] text-white", // Light red background
@@ -335,7 +335,7 @@ const cards = [
     description:
       "Enjoy live music every Saturday evening in the park. This week's band: The Rockers.",
     title: "Summer Concert Series",
-    src: "/Events/summer-concert-series.jpg",
+    src: "/events/summer-concert-series.jpg",
     ctaText: "Attend",
     ctaLink: "https://example.com/summer-concert-series",
     bgColor: "bg-[#fffbeb]", // Light amber background
@@ -355,7 +355,7 @@ const cards = [
     description:
       "Find your new best friend at our pet adoption fair. Adoption fees waived for the day!",
     title: "Pet Adoption Fair",
-    src: "/Events/pet-adoption-fair.jpg",
+    src: "/events/pet-adoption-fair.jpg",
     ctaText: "Adopt",
     ctaLink: "https://example.com/pet-adoption-fair",
     bgColor: "bg-[#f87171] text-white", // Light red background
@@ -375,7 +375,7 @@ const cards = [
     description:
       "Learn the basics of gardening from local experts. Free starter kits for all attendees.",
     title: "Gardening Workshop",
-    src: "/Events/gardening-workshop.jpg",
+    src: "/events/gardening-workshop.jpg",
     ctaText: "Sign Up",
     ctaLink: "https://example.com/gardening-workshop",
     bgColor: "bg-[#fffbeb]", // Light amber background
