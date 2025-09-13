@@ -1,3 +1,5 @@
+# HACKATHON PROJECT PROTOTYPE VERY DEMO BUILD!!!
+
 # NeighbourNet
 
 **NeighbourNet** is an innovative app designed to foster community connections and enhance neighborhood engagement. In today's fast-paced digital world, many people barely know their neighbors. NeighbourNet aims to bridge that gap by providing a platform where local residents can connect, interact, and stay informed about their community.
